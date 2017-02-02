@@ -3,8 +3,8 @@
 SAMPLE
 ----------------------------------------
 
-Challenge: Write function named test that returns the string "This Works!". 
-Solution: This one has already been complete for you. 
+Challenge: Write function named test that returns the string "This Works!".
+Solution: This one has already been complete for you.
 
 */
 
@@ -24,7 +24,12 @@ Write function named sum that will take an array of numbers and return the sum o
 
 Example: if you pass it [1,2,3] then it should return 6 (which is 1 + 2 + 3)
 */
+var numbers = [1, 2, 3];
 
+function getSum(total, num) {
+    return total + num;
+}
+function myFunction(item);
 
 
 
@@ -43,7 +48,25 @@ Write function named doubleNumbers that will take an array of numbers and return
 Example: if you pass it [1,2,3] then it should return [2,4,6]
 */
 
+var numbers = [8, 12, 5, 2, 5, 7];
+var doubledNumbers = [];
 
+
+function doubled(arr){
+ var doubledNumbers = [];
+ for (var i = 0; i < arr.length; i ++){
+  var dub = arr[i];
+   var dubb = dub*2;
+   doubledNumbers.push(dubb);
+ }
+ return doubledNumbers;
+
+}
+
+var collectionNumbers = {
+  orginialNumbers: numbers,
+  doubledNumbers: doubled(numbers)
+};
 
 
 
@@ -794,4 +817,4 @@ If you pass {1999: 4036, 2000: 7654} and 4036, it should return true
 
 
 
-// 
+//
