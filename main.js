@@ -29,7 +29,6 @@ function test() {
  var string ="This Works!";
  return string;
 }
-
 /*
 Write function named sum that will take an array of numbers and return the sum of them
 Example: if you pass it [1,2,3] then it should return 6 (which is 1 + 2 + 3)
